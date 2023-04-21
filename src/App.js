@@ -1,23 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import ImageCard from './Components/Cards/ImageCard/ImageCard';
+import Header from './Components/Header/Header';
+import { Route, Routes, useLocation, Sw } from "react-router-dom";
+import './App.css'
+import TextCard from './Components/Cards/TextCard/TextCard';
+import Home from './Components/Home/Home';
+import SignIn from './Components/Auth/SignIn/SignIn';
+import SignUp from './Components/Auth/SignUp/SignUp'
 
 function App() {
+  const currentPath = useLocation();
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      {currentPath.pathname === "/" ||
+        currentPath.pathname === "/signup" ? null : (
+        <Header />
+      )}
+      <Routes>
+        <Route exact path="/home" element={<Home />}></Route>
+
+
+        <Route exact path="/" element={<SignIn />}></Route>
+
+
+        <Route exact path="/signup" element={<SignUp />}></Route>
+      </Routes>
+
     </div>
   );
 }
