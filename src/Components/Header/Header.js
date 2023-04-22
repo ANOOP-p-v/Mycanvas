@@ -29,7 +29,7 @@ function Header() {
                     <div className="row v-center">
                         <div className="header-item item-left">
                             <div className="logo">
-                                <a href="/">MyCanvas</a>
+                                <a href="/">FutureIK</a>
                             </div>
                         </div>
                         {/* menu start here */}

@@ -1,10 +1,34 @@
-.txt{
-    color:black;
-    text-align: center;
-  }
-  .txth{
-    color:black;
-  }
+
   .containeri{
     margin:30px
   }
+
+ .caption{
+  vertical-align: top;
+  display: inline-block;
+  /* To horizontally center images and caption */
+  font-weight: 20px;
+ 
+  padding-top:10px;
+  margin-left: 30px;
+  /* The width of the container also implies margin around the images. */
+  width: 120px;
+  color:black;
+ }
+.card-container{
+  margin: auto;
+}
+
+.title{
+  color:black;
+  font-size: larger;
+}
+.subtitle{
+  color:black;
+  margin-top:10px;
+  margin-bottom: 10px;
+}
+.card-container:hover{
+transform: scale(.97);
+box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}

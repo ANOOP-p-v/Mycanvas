@@ -6,6 +6,7 @@ import TextCard from './Components/Cards/TextCard/TextCard';
 import Home from './Components/Home/Home';
 import SignIn from './Components/Auth/SignIn/SignIn';
 import SignUp from './Components/Auth/SignUp/SignUp'
+import Footer from './Components/Footer/Footer';
 
 function App() {
   const currentPath = useLocation();
@@ -25,6 +26,11 @@ function App() {
 
         <Route exact path="/signup" element={<SignUp />}></Route>
       </Routes>
+
+      {currentPath.pathname === "/" ||
+        currentPath.pathname === "/signup" ? null : (
+        <Footer />
+      )}
 
     </div>
   );
