@@ -164,39 +164,13 @@ function Header() {
                                         <div className="sub-menu single-column-menu">
                                             <ul>
                                                 <li>
-                                                    <a href="#">Standard Layout</a>
+                                                    <a href="#">Social Media</a>
                                                 </li>
                                                 <li>
-                                                    <a href="#">Grid Layout</a>
+                                                    <a href="#">SEO</a>
                                                 </li>
                                                 <li>
-                                                    <a href="#">single Post Layout</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li className="menu-item-has-children">
-                                        <a href="#">
-                                            Pages  <FontAwesomeIcon icon={faAngleDown} />
-                                        </a>
-                                        <div className="sub-menu single-column-menu">
-                                            <ul>
-                                                <li>
-                                                    <NavLink to="/signin" >
-                                                        Login
-                                                    </NavLink>
-
-                                                </li>
-                                                <li>
-                                                    <NavLink to="/signup" >
-                                                        Register
-                                                    </NavLink>
-                                                </li>
-                                                <li>
-                                                    <a href="#">Faq</a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">404 Page</a>
+                                                    <a href="#">All Topics</a>
                                                 </li>
                                             </ul>
                                         </div>

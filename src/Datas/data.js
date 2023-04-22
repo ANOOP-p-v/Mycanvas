@@ -78,8 +78,8 @@ export const pageData = [
             }
         ],
 
-        tempTitle: "Documents",
-        // tmpSubtitle: "555-555-5555",
+        tempTitle: "Templates",
+        tmpSubtitle: "Documents",
         template: [
             {
                 id: 1, title: "DocTemplate1", url: "https://img.freepik.com/free-photo/young-handsome-physician-medical-robe-with-stethoscope_1303-17818.jpg?size=626&ext=jpg&ga=GA1.2.1287520646.1682078036",
@@ -129,8 +129,8 @@ export const pageData = [
             }
         ],
 
-        tempTitle: "Capture Designs",
-        // tmpSubtitle: "555-555-5555",
+        tempTitle: "Templates",
+        tmpSubtitle: "Photos",
         template: [
             {
                 id: 1, title: 'PhotoCollage', url: "https://cms-assets.tutsplus.com/cdn-cgi/image/width=630/uploads/users/1631/posts/33068/image/Screen-Shot-2019-04-09-at-00.31.23.jpg",
@@ -182,27 +182,27 @@ export const pageData = [
             }
         ],
 
-        tempTitle: "Recent Designs",
-        // tmpSubtitle: "555-555-5555",
+        tempTitle: "Templates",
+        tmpSubtitle: "Videos",
         template: [
             {
-                id: 1, title: "Doc", url: "https://cms-assets.tutsplus.com/cdn-cgi/image/width=630/uploads/users/1631/posts/33068/image/Screen-Shot-2019-04-09-at-00.31.23.jpg",
+                id: 1, title: "Youtube Video", url: "https://cms-assets.tutsplus.com/cdn-cgi/image/width=630/uploads/users/1631/posts/33068/image/Screen-Shot-2019-04-09-at-00.31.23.jpg",
 
             },
             {
-                id: 2, title: "Your Story", url: "https://img.freepik.com/premium-vector/clean-new-collection-fashion-sale-landing-pages_7605-445.jpg"
+                id: 2, title: "Insta Reels", url: "https://img.freepik.com/premium-vector/clean-new-collection-fashion-sale-landing-pages_7605-445.jpg"
 
             },
             {
-                id: 3, title: "Video", url: "https://img.freepik.com/free-vector/business-woman-banner-template_23-2148798237.jpg?w=900&t=st=1682059203~exp=1682059803~hmac=10db3f4f6e2b0dfb9cc60e0232ddf51239bbc2a34829aa5d5765d911d86c54db"
+                id: 3, title: "Facebook reels", url: "https://img.freepik.com/free-vector/business-woman-banner-template_23-2148798237.jpg?w=900&t=st=1682059203~exp=1682059803~hmac=10db3f4f6e2b0dfb9cc60e0232ddf51239bbc2a34829aa5d5765d911d86c54db"
 
             },
             {
-                id: 4, title: "Photo Collage", url: "https://img.freepik.com/free-photo/digital-painting-mountain-with-colorful-tree-foreground_1340-25699.jpg?size=626&ext=jpg&ga=GA1.1.1577341204.1682002845"
+                id: 4, title: "Instand record", url: "https://img.freepik.com/free-photo/digital-painting-mountain-with-colorful-tree-foreground_1340-25699.jpg?size=626&ext=jpg&ga=GA1.1.1577341204.1682002845"
 
             },
             {
-                id: 5, title: "Insta Reel", url: "https://img.freepik.com/free-vector/flat-spring-horizontal-banner-template_23-2149280328.jpg?t=st=1682055655~exp=1682056255~hmac=2b9079ba9d2311d016e6e277a0f7ef9adbb3a011801740fb0e4a6b81455305d5"
+                id: 5, title: "Insta Story", url: "https://img.freepik.com/free-vector/flat-spring-horizontal-banner-template_23-2149280328.jpg?t=st=1682055655~exp=1682056255~hmac=2b9079ba9d2311d016e6e277a0f7ef9adbb3a011801740fb0e4a6b81455305d5"
 
             }
         ]
