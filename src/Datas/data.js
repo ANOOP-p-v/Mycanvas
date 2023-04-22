@@ -158,26 +158,26 @@ export const pageData = [
     },
 
     {
-        sugTitle: "Start Color Click",
-        sugSubtitle: "Click Your Moment",
+        sugTitle: "Start Recoding",
+        sugSubtitle: "Play and Pause",
         suggested: [
             {
-                id: 1, title: "Clasi", url: "https://cms-assets.tutsplus.com/cdn-cgi/image/width=630/uploads/users/1631/posts/33068/image/Screen-Shot-2019-04-09-at-00.31.23.jpg",
+                id: 1, title: "MP4", url: "https://cms-assets.tutsplus.com/cdn-cgi/image/width=630/uploads/users/1631/posts/33068/image/Screen-Shot-2019-04-09-at-00.31.23.jpg",
 
             },
             {
-                id: 2, title: "Trending", url:"https://img.freepik.com/free-vector/business-woman-banner-template_23-2148798237.jpg?w=900&t=st=1682059203~exp=1682059803~hmac=10db3f4f6e2b0dfb9cc60e0232ddf51239bbc2a34829aa5d5765d911d86c54db"
+                id: 2, title: "VLC", url:"https://img.freepik.com/free-vector/business-woman-banner-template_23-2148798237.jpg?w=900&t=st=1682059203~exp=1682059803~hmac=10db3f4f6e2b0dfb9cc60e0232ddf51239bbc2a34829aa5d5765d911d86c54db"
 
             },
             {
-                id: 3, title: "Wintage", url: "https://img.freepik.com/premium-vector/clean-new-collection-fashion-sale-landing-pages_7605-445.jpg"
+                id: 3, title: "Own Player", url: "https://img.freepik.com/premium-vector/clean-new-collection-fashion-sale-landing-pages_7605-445.jpg"
             },
             {
-                id: 4, title: "Old is Gold", url: "https://img.freepik.com/free-photo/digital-painting-mountain-with-colorful-tree-foreground_1340-25699.jpg?size=626&ext=jpg&ga=GA1.1.1577341204.1682002845"
+                id: 4, title: "Start Recording", url: "https://img.freepik.com/free-photo/digital-painting-mountain-with-colorful-tree-foreground_1340-25699.jpg?size=626&ext=jpg&ga=GA1.1.1577341204.1682002845"
 
             },
             {
-                id: 5, title: "Free feel snap", url: "https://img.freepik.com/free-vector/flat-spring-horizontal-banner-template_23-2149280328.jpg?t=st=1682055655~exp=1682056255~hmac=2b9079ba9d2311d016e6e277a0f7ef9adbb3a011801740fb0e4a6b81455305d5"
+                id: 5, title: "Free feel Smile", url: "https://img.freepik.com/free-vector/flat-spring-horizontal-banner-template_23-2149280328.jpg?t=st=1682055655~exp=1682056255~hmac=2b9079ba9d2311d016e6e277a0f7ef9adbb3a011801740fb0e4a6b81455305d5"
 
             }
         ],
